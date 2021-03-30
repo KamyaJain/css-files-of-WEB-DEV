@@ -1,0 +1,77 @@
+*{
+	margin: 1mm;
+	padding: 0;
+	background: lightgrey;
+}
+
+.landing-container{
+	position: relative;
+}
+
+.nav ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: darkgrey;
+	font-weight: bolder;
+}
+
+.sidenav{
+	position: absolute;
+	top: 40%;
+	display: flex;
+	flex-direction: row;
+	transform: rotate(-90deg);
+	font-size: 20px;
+	left: -10%;
+	color: darkgrey;
+}
+
+.sidenav li{
+	margin: 1em;
+	padding: 1em;
+}
+
+.header{
+	position: absolute;
+	font-size: 20px;
+	color: crimson;
+	left: 4.6%;
+}
+
+.footer h1{
+	position: absolute;
+	font-size: 50px;
+	color: crimson;
+	top: 120%;
+	left: 40%;
+	font-weight: bolder;
+}	
+
+.heading{
+	position: absolute;
+	font-size: 40px;
+	color: black;
+	left: 23%;
+	top: 15%;
+	font-weight: bolder;
+}
+
+.hr1{
+	position: absolute;
+	text-align: center;
+	width: 60%;
+	margin-left: 22.1%;
+	margin-top: 11%;
+	border: 1px solid black; 
+}
+
+.contacts{
+	position: absolute;
+	top: 30%;
+	font-size: 25px;
+	left: 26%;
+	color: black;
+}

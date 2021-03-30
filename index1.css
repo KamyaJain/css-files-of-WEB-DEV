@@ -1,0 +1,121 @@
+*{
+	margin: 1mm;
+	padding: 0;
+	background: lightgrey;
+}
+
+.landing-container{
+	position: relative;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: darkgrey;
+	font-weight: bolder;
+}
+
+.sidenav{
+	position: absolute;
+	top: 40%;
+	display: flex;
+	flex-direction: row;
+	transform: rotate(-90deg);
+	font-size: 20px;
+	left: -10%;
+	color: darkgrey;
+}
+
+.sidenav li{
+	margin: 1em;
+	padding: 1em;
+}
+
+.header{
+	position: absolute;
+	font-size: 20px;
+	color: crimson;
+	left: 4.6%;
+}
+
+.hide{
+	display: none;
+}
+
+.image{
+	position: absolute;
+	width: 40%;
+	top: 10%;
+	left: 30%;
+	height: 85%;
+}
+
+.hr1{
+	position: absolute;
+	text-align: center;
+	width: 40.3%;
+	margin-left: 29%;
+	margin-top: 47%;
+	border: 1px solid black; 
+}
+
+.title{
+	position: absolute;
+	margin-left: 29%;
+	margin-top: 47.5%;
+	font-size: 30px;
+
+}
+
+.price{
+	position: absolute;
+	margin-left: 29%;
+	margin-top: 50%;
+	font-size: 30px;
+}
+
+.like{
+	position: absolute;
+	margin-left: 29%;
+	margin-top: 52%;
+	font-size: 55px;
+}
+
+.comment{
+	position: absolute;
+	margin-left: 47%;
+	margin-top: 52.5%;
+	font-size: 47px;
+}
+
+.share{
+	position: absolute;
+	margin-left: 66%;
+	margin-top: 52.5%;
+	font-size: 47px;
+}
+
+.hr2{
+	position: absolute;
+	text-align: center;
+	width: 40.3%;
+	margin-left: 29%;
+	margin-top: 58%;
+	border: 1px solid black; 
+}
+
+.buy{
+	position: absolute;
+	margin-left: 39%;
+	margin-top: 58.6%;
+	font-size: 40px;
+}
+
+.buy a{
+	text-decoration: none;
+	color: black;
+}
+	
